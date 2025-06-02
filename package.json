@@ -3,6 +3,10 @@
   "displayName": "vscode-editor-env",
   "description": "Automatically exports the active editor path to /tmp/update_editor_env.sh",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlu07/vscode-editor-env.git"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
