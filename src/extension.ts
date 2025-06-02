@@ -7,12 +7,12 @@ export function activate() {
   vscode.window.onDidChangeActiveTextEditor(editor => {
     if (editor && editor.document) {
       const filePath = editor.document.uri.fsPath;
-      const envScriptPath = path.join('/tmp', 'update_editor_env.sh');
+      const envScriptPath = path.join('/tmp', 'editor_path.txt');
 
       try {
-        fs.writeFileSync(envScriptPath, `export EDITOR_PATH="${filePath.replace(/"/g, '\\"')}"\n`);
+        fs.writeFileSync(envScriptPath, filePath);
       } catch (err) {
-        console.error("Failed to write EDITOR_PATH:", err);
+        console.error("Failed to write editor path:", err);
       }
     }
   });
