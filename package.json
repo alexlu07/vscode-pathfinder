@@ -1,7 +1,7 @@
 {
   "name": "vscode-pathfinder",
   "displayName": "VSCode Pathfinder",
-  "description": "Automatically exports relevant vscode paths to /tmp",
+  "description": "Export relevant vscode paths to /tmp",
   "version": "1.0.0",
   "publisher": "alexlu07",
   "repository": {
@@ -9,6 +9,7 @@
     "url": "git+https://github.com/alexlu07/pathfinder.git"
   },
   "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.78.0"
   },
