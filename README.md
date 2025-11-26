@@ -19,7 +19,7 @@ here() {
 
 home() {
     if [ -f /tmp/folder_path.txt ]; then
-        cd "$(dirname "$(cat /tmp/folder_path.txt)")"
+        cd "$(cat /tmp/folder_path.txt)"
     fi
 }
 ```
