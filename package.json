@@ -1,12 +1,14 @@
 {
-  "name": "pathfinder",
-  "displayName": "Pathfinder",
+  "name": "vscode-pathfinder",
+  "displayName": "VSCode Pathfinder",
   "description": "Automatically exports relevant vscode paths to /tmp",
   "version": "1.0.0",
+  "publisher": "alexlu07",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexlu07/pathfinder.git"
   },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -14,8 +16,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onStartupFinished",
-    "onLanguage:*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "scripts": {

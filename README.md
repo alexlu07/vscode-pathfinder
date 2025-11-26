@@ -1,4 +1,4 @@
-# Pathfinder
+# VSCode Pathfinder
 
 Simple extension to automatically export the active editor paths to `/tmp`
 - Exports editor path to `/tmp/editor_path.txt`
